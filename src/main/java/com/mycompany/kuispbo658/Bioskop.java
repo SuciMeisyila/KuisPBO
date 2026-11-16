@@ -11,6 +11,7 @@ package com.mycompany.kuispbo658;
 import java.io.Serializable;
 
 public abstract class Bioskop implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String id;
     private String nama;
 

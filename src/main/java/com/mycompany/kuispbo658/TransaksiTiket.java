@@ -11,6 +11,7 @@ package com.mycompany.kuispbo658;
 import java.io.Serializable;
 
 public class TransaksiTiket implements Serializable {
+    private static final long serialVersionUID = 1L;
     private Penonton penonton;
     private JadwalFilm jadwalFilm;
     private int jumlah;
